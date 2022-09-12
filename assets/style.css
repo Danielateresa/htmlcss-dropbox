@@ -23,6 +23,74 @@
 
 /*#endregion reset and palette*/
 
-body {
-    background-color: red;
+/*#region utility*/
+.pad_2 {
+    padding: 1rem;
 }
+
+/*#endregion utility*/
+
+/*#region common*/
+.container_l {
+    width: 80%;
+}
+
+.container_sm {
+    width: 70%;
+}
+
+.container_xl {
+    width: 100%;
+}
+
+.container_xl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button_blue {
+    padding: 0.5rem 1rem;
+    background-color: var(--dp-bluebutton);
+    color: var(--dp-white);
+    border: 0px;
+}
+
+.button_blue:hover {
+    padding: 0.5rem 1rem;
+    background-color: var(--dp-bluebutton);
+    opacity: 0.5;
+    color: var(--dp-white);
+    border: 0px;
+}
+
+/*#endregion common*/
+
+
+/*#region site_nav*/
+.nav_left,
+nav_right {
+    display: flex;
+    align-items: center;
+}
+
+.nav_left a,
+.nav_left img {
+    margin: 0 1.5rem 0 0;
+}
+
+.nav_right a,
+.nav_right button {
+    margin: 0 0 0 1.5rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--dp-dark)
+}
+
+/* .nav a:hover {
+    border-bottom: 1px solid var(--dp-lonelyplanet);
+    padding-bottom: 1rem
+} */
+
+/*#endregion site_nav*/
