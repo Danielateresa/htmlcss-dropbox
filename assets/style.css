@@ -50,6 +50,10 @@ h5,
     padding-bottom: 2rem;
 }
 
+.margin_columns {
+    margin: 2rem 1rem;
+}
+
 /*#endregion utility*/
 
 /*#region common*/
@@ -107,7 +111,11 @@ body {
 
 .col_4 {
     width: calc(100% / 12 * 4);
-    margin: 2rem 1rem;
+    ;
+}
+
+.col_8 {
+    width: calc(100% / 12 * 8);
 }
 
 .col_9 {
@@ -182,6 +190,10 @@ i.fa-solid.fa-arrow-down {
     margin-top: 10rem;
 }
 
+.plans.flex {
+    margin-right: -1rem;
+}
+
 .mensile .radio,
 .annuale .radio {
     vertical-align: middle;
@@ -240,4 +252,28 @@ i.fa-solid.fa-check {
     color: var(--dp-bluebutton);
 }
 
-/*#endregion section_piano_business*/
+.horizontal_enterprise {
+    border: 1px solid darkgrey;
+}
+
+.plan_detail p {
+    margin-top: 3rem;
+}
+
+.row_enterprise {
+    padding: 2rem;
+}
+
+.row_enterprise .col_4 {
+    text-align: right;
+}
+
+.row_enterprise p {
+    margin-top: 3rem;
+}
+
+.horizontal_enterprise button.blue_button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    /*#endregion section_piano_business*/
