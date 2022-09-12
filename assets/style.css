@@ -18,6 +18,7 @@
     --dp-topps: #FF1C1C;
     --dp-cco: #FFD830;
     --dp-white: #FFFFFF;
+    --dp-darkgrey: #D2D2D5;
 
 }
 
@@ -26,6 +27,26 @@
 /*#region utility*/
 .pad_2 {
     padding: 1rem;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    padding-bottom: 3rem;
+}
+
+h4 {
+    margin-bottom: 2rem;
+}
+
+h5,
+.plan_highlights div {
+    margin-bottom: 1rem;
+}
+
+.underline {
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 2rem;
 }
 
 /*#endregion utility*/
@@ -45,7 +66,7 @@ body {
 }
 
 .container_sm {
-    width: 60%;
+    width: 50%;
     margin: 5rem auto;
 }
 
@@ -73,8 +94,19 @@ body {
     border: 0px;
 }
 
+.centered_button {
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
+}
+
 .col_3 {
     width: calc(100% / 12 * 3);
+}
+
+.col_4 {
+    width: calc(100% / 12 * 4);
+    margin: 2rem 1rem;
 }
 
 .col_9 {
@@ -149,10 +181,63 @@ i.fa-solid.fa-arrow-down {
     margin-top: 10rem;
 }
 
-.radio {
-    content: "";
+.mensile .radio,
+.annuale .radio {
+    vertical-align: middle;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
     border-radius: 50%;
-    border: 2px solid var(--dp-bluebutton);
+    font-size: 1px;
+}
+
+.mensile .radio {
+    border: 5px solid var(--dp-bluebutton);
+}
+
+.annuale .radio {
+    border: 2px solid var(--dp-darkgrey);
+}
+
+.mensile {
+    margin-right: 1.5rem;
+}
+
+.professional,
+.advanced,
+.enterprise {
+    height: 1000px;
+    border: 1px solid var(--dp-darkgrey);
+}
+
+.professional {
+    margin-left: 0rem;
+}
+
+.singolo {
+    border-bottom: 1px solid darkgrey;
+    padding: 1rem;
+    text-align: center;
+}
+
+.plan_detail {
+    padding: 2rem;
+}
+
+.time {
+    margin: 1rem 0 0 0;
+    color: darkgrey;
+}
+
+.plan_detail>div {
+    margin-bottom: 1rem;
+}
+
+.plan_highlights {
+    margin-top: 4rem;
+}
+
+i.fa-solid.fa-check {
+    color: var(--dp-bluebutton);
 }
 
 /*#endregion section_piano_business*/
