@@ -31,12 +31,21 @@
 /*#endregion utility*/
 
 /*#region common*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
 .container_l {
-    width: 80%;
+    width: 70%;
+    margin: 4rem auto;
 }
 
 .container_sm {
-    width: 70%;
+    width: 60%;
 }
 
 .container_xl {
@@ -48,20 +57,29 @@
     justify-content: space-between;
 }
 
-.button_blue {
+.blue_button {
     padding: 0.5rem 1rem;
     background-color: var(--dp-bluebutton);
     color: var(--dp-white);
     border: 0px;
 }
 
-.button_blue:hover {
+.blue_button:hover {
     padding: 0.5rem 1rem;
     background-color: var(--dp-bluebutton);
     opacity: 0.5;
     color: var(--dp-white);
     border: 0px;
 }
+
+.col_3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col_9 {
+    width: calc(100% / 12 * 9);
+}
+
 
 /*#endregion common*/
 
@@ -94,3 +112,33 @@ nav_right {
 } */
 
 /*#endregion site_nav*/
+
+/*#region jumbotron*/
+.jumbotron {
+    background-color: var(--dp-sky);
+    height: 500px;
+}
+
+.jumbotron_content {
+    padding-top: 2.5rem;
+}
+
+.jumbotron h1 {
+    font-weight: 800;
+    font-size: 5rem;
+}
+
+.jumbotron img {
+    width: 45vw;
+}
+
+.jumbotron .blue_button {
+    margin: 2rem 0 2rem 0;
+}
+
+i.fa-solid.fa-arrow-down {
+    font-size: 3rem;
+    margin-top: 5rem;
+}
+
+/*#endregion jumbotron*/
