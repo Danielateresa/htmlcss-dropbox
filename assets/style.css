@@ -1,0 +1,28 @@
+/*#region reset and palette*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dp-sky: #B4D0E7;
+    --dp-dark: #000000;
+    --dp-bluebutton: #0061FF;
+    --dp-florida: #0093CE;
+    --dp-lonelyplanet: #0D2481;
+    --dp-asu: #61082B;
+    --dp-designit: #A2D39B;
+    --dp-wbf: #D5001F;
+    --dp-lightgrey: #F5F5F5;
+    --dp-topps: #FF1C1C;
+    --dp-cco: #FFD830;
+    --dp-white: #FFFFFF;
+
+}
+
+/*#endregion reset and palette*/
+
+body {
+    background-color: red;
+}
