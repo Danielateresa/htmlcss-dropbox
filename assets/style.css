@@ -46,6 +46,7 @@ body {
 
 .container_sm {
     width: 60%;
+    margin: 5rem auto;
 }
 
 .container_xl {
@@ -116,7 +117,7 @@ nav_right {
 /*#region jumbotron*/
 .jumbotron {
     background-color: var(--dp-sky);
-    height: 500px;
+    height: 715px;
 }
 
 .jumbotron_content {
@@ -142,3 +143,16 @@ i.fa-solid.fa-arrow-down {
 }
 
 /*#endregion jumbotron*/
+
+/*#region section_piano_business*/
+.section_piano_business {
+    margin-top: 10rem;
+}
+
+.radio {
+    content: "";
+    border-radius: 50%;
+    border: 2px solid var(--dp-bluebutton);
+}
+
+/*#endregion section_piano_business*/
