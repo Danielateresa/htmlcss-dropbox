@@ -341,7 +341,7 @@ button.button_partner {
     background-color: red;
 }
 
-.common_svg {
+/* .common_svg {
     width: 50%;
     height: 30vh;
     display: flex;
@@ -359,11 +359,18 @@ button.button_partner {
     width: 50%;
     fill: var(--dp-white);
     vertical-align: middle;
+} */
+
+.row_team {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: green;
 }
 
-.row_team .col_3 {
-    background-color: #D2D2D5;
+.team_square .col_3 {
     height: 30vh;
+    background-color: yellow;
 }
 
 /*#endregion team*/
