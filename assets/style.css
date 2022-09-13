@@ -361,16 +361,23 @@ button.button_partner {
     vertical-align: middle;
 } */
 
-.row_team {
-
+.row-team {
     display: flex;
     flex-wrap: wrap;
     background-color: green;
 }
 
+.side_columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .team_square .col_3 {
+    width: calc(100% / 2);
+    aspect-ratio: 1 / 1;
     height: 30vh;
     background-color: yellow;
 }
+
 
 /*#endregion team*/
