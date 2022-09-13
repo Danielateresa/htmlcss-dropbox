@@ -331,8 +331,19 @@ button.button_partner {
 
 /*#region team*/
 .team_square {
+    width: 100%;
+    height: 60vh;
+    background-color: blue;
+}
+
+.side_columns {
     background-color: red;
-    height: 200px;
+}
+
+.left_first {
+    width: 50%;
+    background-color: #B4D0E7;
+    height: 30vh;
 }
 
 /*#endregion team*/
