@@ -361,11 +361,6 @@ button.button_partner {
     vertical-align: middle;
 } */
 
-.row-team {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: green;
-}
 
 .side_columns {
     display: flex;
@@ -376,8 +371,74 @@ button.button_partner {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
     height: 30vh;
-    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.team_square img,
+.central_column img {
+    width: 50%;
+}
+
+.designit {
+    background-color: var(--dp-designit);
+    border: 1rem solid hsl(113, 47%, 82%);
+}
+
+.asu {
+    background-color: var(--dp-asu);
+}
+
+.topps {
+    background-color: var(--dp-topps);
+}
+
+.florida {
+    background-color: var(--dp-florida);
+}
+
+.wbr {
+    background-color: var(--dp-wbf);
+}
+
+.hearst {
+    background-color: var(--dp-sky);
+}
+
+.lonely {
+    background-color: var(--dp-lonelyplanet);
+}
+
+.channel {
+    background-color: var(--dp-cco);
+}
+
+.col_3 .florida {
+    fill: var(--dp-white);
+    display: flex;
+    align-items: center;
+}
+
+.central_column {
+    background-color: var(--dp-darkgrey);
+    color: var(--dp-dark);
+    height: 100%;
+    padding: 3rem;
+}
+
+.central_column hr {
+    width: 7rem;
+    color: grey;
+    margin-top: 2rem;
+}
+
+.central_column p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 
 
 /*#endregion team*/
