@@ -78,13 +78,11 @@ body {
     margin: 9rem auto;
 }
 
-.container_xl {
-    width: 100%;
-}
 
 .container_xl {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .blue_button {
@@ -135,6 +133,19 @@ body {
 
 
 /*#region site_nav*/
+body {
+    position: relative;
+}
+
+.site_header {
+    background-color: var(--dp-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
 .nav_left,
 nav_right {
     display: flex;
@@ -410,7 +421,7 @@ button.button_partner {
     padding: 3rem;
 }
 
-.central_column hr {
+.small_hr {
     width: 7rem;
     color: grey;
     margin-top: 2rem;
@@ -464,3 +475,26 @@ button.button_partner {
 }
 
 /*#endregion banner and FAQ*/
+
+/*#region footer*/
+#site_footer {
+    background-color: var(--dp-dark);
+    color: var(--dp-white);
+}
+
+.footer_column a {
+    display: block;
+    text-decoration: none;
+    color: var(--dp-white);
+    padding-bottom: 1rem;
+}
+
+.language {
+    padding: 3rem 0 3rem 0
+}
+
+.language span {
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+/*#endregion footer*/
