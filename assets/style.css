@@ -92,12 +92,22 @@ body {
     border: 0px;
 }
 
+@keyframes on_button {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.5;
+    }
+}
+
 .blue_button:hover {
+    animation: on_button 0.3s;
     padding: 0.5rem 1rem;
     background-color: var(--dp-bluebutton);
     opacity: 0.5;
     color: var(--dp-white);
-    border: 0px;
 }
 
 .centered_button {
@@ -199,6 +209,7 @@ body {
 i.fa-solid.fa-arrow-down {
     font-size: 3rem;
     margin-top: 5rem;
+    color: var(--dp-dark);
 }
 
 /*#endregion jumbotron*/
@@ -306,6 +317,11 @@ i.fa-solid.fa-check {
 .partner_image img {
     width: 60%;
     margin-right: 2rem;
+    filter: grayscale(1);
+}
+
+.partner_image img:hover {
+    filter: none;
 }
 
 .partner_image::after {
@@ -324,6 +340,30 @@ button.button_partner {
     margin-top: 1.5rem;
     background-color: transparent;
     border: 1px solid black;
+
+}
+
+.button_partner:hover {
+    background-color: var(--dp-dark);
+    color: var(--dp-lightgrey);
+}
+
+.move {
+    position: absolute;
+    right: 36.7%;
+    animation-name: button_enter;
+    animation-duration: 2s;
+}
+
+@keyframes button_enter {
+    0% {
+        right: 0;
+    }
+
+    100% {
+        right: 36.7%;
+        ;
+    }
 }
 
 /*#endregion partner*/
