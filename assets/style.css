@@ -117,6 +117,7 @@ body {
     width: calc(100% / 12 * 4);
 }
 
+
 .col_8 {
     width: calc(100% / 12 * 8);
 }
@@ -340,16 +341,29 @@ button.button_partner {
     background-color: red;
 }
 
-.left_first {
+.common_svg {
     width: 50%;
-    background-color: var(--dp-designit);
     height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_first {
+    background-color: var(--dp-designit);
     border: 1rem solid hsl(113, 47%, 82%);
 }
+
 
 .assets_svg {
     width: 50%;
     fill: var(--dp-white);
+    vertical-align: middle;
+}
+
+.row_team .col_3 {
+    background-color: #D2D2D5;
+    height: 30vh;
 }
 
 /*#endregion team*/
