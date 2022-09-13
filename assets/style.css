@@ -367,6 +367,7 @@ button.button_partner {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: transform 0.5s;
 }
 
 .team_square img,
@@ -411,6 +412,10 @@ button.button_partner {
     fill: var(--dp-white);
     display: flex;
     align-items: center;
+}
+
+.team_square .col_3:hover {
+    transform: scale(1.1);
 }
 
 .central_column {
