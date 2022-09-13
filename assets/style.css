@@ -181,6 +181,29 @@ body {
     margin-bottom: -1.3rem
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    z-index: 2;
+    padding: 1rem;
+    background-color: var(--dp-white);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover+.dropdown_content,
+.dropdown_content:hover {
+    display: table;
+}
+
+
+
 /*#endregion site_nav*/
 
 /*#region jumbotron*/
