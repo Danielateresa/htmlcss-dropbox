@@ -151,6 +151,7 @@ body {
     left: 0;
     right: 0;
     z-index: 2;
+    box-shadow: 0 0 0.5rem var(--dp-darkgrey);
 }
 
 .nav_left,
@@ -223,6 +224,10 @@ body {
     padding-top: 2.5rem;
 }
 
+.annulla {
+    margin: 2rem 0;
+}
+
 .jumbotron h1 {
     font-weight: 800;
     font-size: 5rem;
@@ -232,8 +237,12 @@ body {
     width: 45vw;
 }
 
-.jumbotron .blue_button {
-    margin: 2rem 0 2rem 0;
+.jumbotron p:first-child {
+    margin-bottom: 2rem;
+}
+
+.jumbotron p:last-child {
+    margin-top: 2rem;
 }
 
 i.fa-solid.fa-arrow-down {
@@ -330,6 +339,7 @@ i.fa-solid.fa-check {
 
 .row_enterprise .col_4 {
     text-align: right;
+    padding-top: 0.5rem;
 }
 
 .row_enterprise p {
@@ -365,11 +375,17 @@ i.fa-solid.fa-check {
     padding-right: 2rem;
 }
 
-a.button_partner {
+.partner_text p {
+    margin-bottom: 2rem;
+}
+
+.button_partner {
     padding: 0.5rem 0.7rem;
     margin-top: 1.5rem;
     background-color: transparent;
     border: 1px solid black;
+    text-decoration: none;
+    color: var(--dp-dark);
 }
 
 .button_partner:hover {
@@ -379,7 +395,7 @@ a.button_partner {
 
 .move {
     position: absolute;
-    right: 36.7%;
+    right: 35.4%;
     animation-name: button_enter;
     animation-duration: 2s;
 }
@@ -390,7 +406,7 @@ a.button_partner {
     }
 
     100% {
-        right: 36.7%;
+        right: 35.4%;
         ;
     }
 }
