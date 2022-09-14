@@ -189,7 +189,7 @@ body {
     margin-bottom: -1.5rem
 }
 
-.overlay {
+/* .overlay {
     background-color: #6e7a8a81;
     width: 100%;
     height: 100vh;
@@ -204,7 +204,7 @@ body {
 
 .nav .link:hover .overlay {
     opacity: 1;
-}
+} */
 
 .dropdown {
     position: relative;
