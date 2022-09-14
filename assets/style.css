@@ -558,16 +558,18 @@ button.button_partner {
     display: none;
 }
 
-.question_container_1:hover+#reply1 {
-    display: block;
-}
-
-.question_container_2:hover+#reply2 {
-    display: block;
-}
-
+.question_container_1:hover+#reply1,
+.question_container_2:hover+#reply2,
 .question_container_3:hover+#reply3 {
     display: block;
+}
+
+.question_container_1:hover.question_container_1 i,
+.question_container_2:hover.question_container_2 i,
+.question_container_3:hover.question_container_3 i {
+    transform: rotate(180deg);
+    color: var(--dp-bluebutton);
+    transition: 0.5s;
 }
 
 /*#endregion banner and FAQ*/
