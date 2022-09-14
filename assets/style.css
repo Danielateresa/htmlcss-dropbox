@@ -29,6 +29,10 @@
     padding: 1rem;
 }
 
+.mg_top {
+    margin-top: 4rem;
+}
+
 h2 {
     font-weight: 700;
     font-size: 2.4rem;
@@ -70,7 +74,7 @@ body {
 
 .container_l {
     width: 70%;
-    margin: 4rem auto;
+    margin: 0 auto;
 }
 
 .container_sm {
@@ -151,7 +155,7 @@ body {
     left: 0;
     right: 0;
     z-index: 2;
-    box-shadow: 0 0 0.5rem var(--dp-darkgrey);
+    box-shadow: 0 0 1rem var(--dp-darkgrey);
 }
 
 .nav_left,
@@ -214,6 +218,7 @@ body {
 .jumbotron {
     background-color: var(--dp-sky);
     margin-top: 3rem;
+    padding-top: 4rem;
 }
 
 .jumbotron .container_l {
@@ -247,7 +252,7 @@ body {
 
 i.fa-solid.fa-arrow-down {
     font-size: 3rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     color: var(--dp-dark);
 }
 
@@ -394,7 +399,7 @@ i.fa-solid.fa-check {
 }
 
 .container_l_simple {
-    width: 100vw;
+    width: 95vw;
 }
 
 .move {
@@ -556,6 +561,11 @@ i.fa-solid.fa-check {
 .banner_button {
     padding: 1rem 3rem 1rem 3rem;
     border: none;
+    background-color: white;
+    padding: 1rem 3rem;
+    border: none;
+    text-decoration: none;
+    color: black;
 }
 
 .banner_button:hover {
@@ -621,5 +631,6 @@ i.fa-solid.fa-check {
 .language span {
     margin: 0 0.5rem 0 0.5rem;
 }
+
 
 /*#endregion footer*/
