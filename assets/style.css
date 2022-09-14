@@ -29,8 +29,12 @@
     padding: 1rem;
 }
 
-.mg_top {
+.mg_top4 {
     margin-top: 4rem;
+}
+
+.pd_top4 {
+    padding-top: 4rem;
 }
 
 h2 {
@@ -322,10 +326,6 @@ i.fa-solid.fa-arrow-down {
     margin-bottom: 1rem;
 }
 
-.plan_highlights {
-    margin-top: 4rem;
-}
-
 i.fa-solid.fa-check {
     color: var(--dp-bluebutton);
 }
@@ -409,7 +409,7 @@ i.fa-solid.fa-check {
 .container_l_simple:hover .move {
     display: block;
     position: absolute;
-    right: 35%;
+    right: 37.5%;
     animation-name: button_enter;
     animation-duration: 2s;
 }
@@ -422,7 +422,7 @@ i.fa-solid.fa-check {
     }
 
     100% {
-        right: 35%;
+        right: 37.5%;
         ;
     }
 }
@@ -453,7 +453,7 @@ i.fa-solid.fa-check {
 /*#region team*/
 .team_square {
     width: 100%;
-    height: 60vh;
+    background-color: var(--dp-darkgrey);
 }
 
 .side_columns {
@@ -464,7 +464,6 @@ i.fa-solid.fa-check {
 .team_square .col_3 {
     width: calc(100% / 2);
     aspect-ratio: 1 / 1;
-    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -522,10 +521,10 @@ i.fa-solid.fa-check {
 }
 
 .central_column {
-    background-color: var(--dp-darkgrey);
     color: var(--dp-dark);
     height: 100%;
     padding: 3rem;
+    background-color: var(--dp-darkgrey);
 }
 
 .small_hr {
@@ -571,6 +570,7 @@ i.fa-solid.fa-check {
 .banner_button:hover {
     background-color: var(--dp-bluebutton);
     color: var(--dp-white);
+    box-shadow: 0 0 1rem rgb(116, 115, 115);
 }
 
 .section_faq hr {
