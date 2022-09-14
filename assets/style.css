@@ -89,6 +89,7 @@ body {
     background-color: var(--dp-bluebutton);
     color: var(--dp-white);
     border: 0px;
+    text-decoration: none;
 }
 
 @keyframes on_button {
@@ -103,7 +104,6 @@ body {
 
 .blue_button:hover {
     animation: on_button 0.3s;
-    padding: 0.5rem 1rem;
     background-color: var(--dp-bluebutton);
     opacity: 0.5;
     color: var(--dp-white);
@@ -159,25 +159,25 @@ body {
     align-items: center;
 }
 
-.nav_left a,
+.nav_left .link,
 .nav_left img {
     margin: 0 1.5rem 0 0;
 }
 
-.nav_right a,
-.nav_right button {
+.nav_right .link,
+.nav_right .blue_button {
     margin: 0 0 0 1.5rem;
 }
 
-.nav a {
+.nav .link {
     text-decoration: none;
     color: var(--dp-dark)
 }
 
-.nav a:hover {
+.nav .link:hover {
     border-bottom: 1px solid var(--dp-lonelyplanet);
-    padding-bottom: 1.2rem;
-    margin-bottom: -1.3rem
+    padding-bottom: 1.5rem;
+    margin-bottom: -1.5rem
 }
 
 .dropdown {
@@ -336,7 +336,7 @@ i.fa-solid.fa-check {
     margin-top: 3rem;
 }
 
-.horizontal_enterprise button.blue_button {
+.row_enterprise a .blue_button {
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -365,7 +365,7 @@ i.fa-solid.fa-check {
     padding-right: 2rem;
 }
 
-button.button_partner {
+a.button_partner {
     padding: 0.5rem 0.7rem;
     margin-top: 1.5rem;
     background-color: transparent;
