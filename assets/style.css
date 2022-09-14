@@ -78,7 +78,6 @@ body {
     margin: 9rem auto;
 }
 
-
 .container_xl {
     display: flex;
     justify-content: space-between;
@@ -202,14 +201,22 @@ body {
     display: table;
 }
 
-
+.dropdown_content a:hover {
+    background-color: var(--dp-sky);
+    color: var(--dp-white);
+    padding: 1rem;
+}
 
 /*#endregion site_nav*/
 
 /*#region jumbotron*/
 .jumbotron {
     background-color: var(--dp-sky);
-    height: 715px;
+    margin-top: 3rem;
+}
+
+.jumbotron .container_l {
+    margin-bottom: -5rem;
 }
 
 .jumbotron_content {
@@ -363,7 +370,6 @@ button.button_partner {
     margin-top: 1.5rem;
     background-color: transparent;
     border: 1px solid black;
-
 }
 
 .button_partner:hover {
@@ -438,6 +444,10 @@ button.button_partner {
     width: 50%;
 }
 
+.side_columns img {
+    filter: invert();
+}
+
 .designit {
     background-color: var(--dp-designit);
     border: 1rem solid hsl(113, 47%, 82%);
@@ -471,10 +481,8 @@ button.button_partner {
     background-color: var(--dp-cco);
 }
 
-.col_3 .florida {
-    fill: var(--dp-white);
-    display: flex;
-    align-items: center;
+.col_3 img {
+    color: var(--dp-white);
 }
 
 .team_square .col_3:hover {
@@ -556,10 +564,6 @@ button.button_partner {
 
 .question_container_2:hover+#reply2 {
     display: block;
-}
-
-#reply3 {
-    display: none;
 }
 
 .question_container_3:hover+#reply3 {
