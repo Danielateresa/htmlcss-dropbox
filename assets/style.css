@@ -393,12 +393,24 @@ i.fa-solid.fa-check {
     color: var(--dp-lightgrey);
 }
 
+.container_l_simple {
+    width: 100vw;
+    height: 100vh;
+}
+
 .move {
+    display: none;
+}
+
+.container_l_simple:hover .move {
+    display: block;
     position: absolute;
-    right: 35.4%;
+    right: 35%;
     animation-name: button_enter;
     animation-duration: 2s;
 }
+
+
 
 @keyframes button_enter {
     0% {
@@ -406,7 +418,7 @@ i.fa-solid.fa-check {
     }
 
     100% {
-        right: 35.4%;
+        right: 35%;
         ;
     }
 }
